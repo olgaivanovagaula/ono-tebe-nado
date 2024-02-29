@@ -114,7 +114,7 @@
     text-align: right;
 }
 
-.letter-spacing-extended{
+.letter-spacing-extended {
     letter-spacing: 0.6em;
 }
 
@@ -336,13 +336,10 @@
 }
 
 .footer__menu-link_active {
-    text-decoration: none;
-}
-
-.footer__menu-link_active {
     display: flex;
     justify-content: space-between;
     gap: 48px;
+    text-decoration: none;
 }
 
 .footer__social-list-item {
