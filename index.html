@@ -58,46 +58,44 @@
       </section>
       <section class="lots">
         <h2 class="lots__heading">Лоты</h2>
-        <div class="lots__card-list">
-            <ul class="lots__card-list-item">
-              <li class="card_type_film">
-                <a class="card__link" href="#">
-                  <article class="card">
-                  <div class="overlay"></div>
-                    <h3 class="card__title">Фильм режиссёра, который бросил киношколу</h3>
-                    <p class="card__text">Не просто бросил, а ушёл с первой лекции. Какой была бы ваша ставка, если бы вы не знали, что режиссёр — Пол Томас Андерсон?</p>
+        <ul class="lots__card-list">
+            <li class="lots__card-list-item">
+              <a class="card__link" href="#">
+                <article class="card card_type_film">
+                <div class="overlay"></div>
+                  <h3 class="card__title">Фильм режиссёра, который бросил киношколу</h3>
+                  <p class="card__text">Не просто бросил, а ушёл с первой лекции. Какой была бы ваша ставка, если бы вы не знали, что режиссёр — Пол Томас Андерсон?</p>
                 </article>
-                </a>
-              </li> 
-              <li class="card_type_book">
-                <a class="card__link" href="#">
-                  <article class="card">
-                  <div class="overlay"></div>
-                    <h3 class="card__title">Книга, где описан один скучный день из жизни рекламного агента</h3>
-                    <p class="card__text">Объёмом почти в тысячу страниц. Иногда без знаков препинания и с переходами на древнеанглийский. В ней одновременно рассказывается о 16 июня 1904 года и об истории литературы, начиная с античных времён. И это всё накладывается на эпическую поэму Гомера. Сколько бы вы поставили на «Улисса» Джеймса Джойса?</p>
-                  </article>
-                </a>
-              </li>
-              <li class="card_type_picture">
-                <a class="card__link" href="#">
-                  <article class="card">
-                  <div class="overlay"></div>
-                    <h3 class="card__title">Картина, которую повторит даже 5-летний сын маминой подруги</h3>
-                    <p class="card__text">Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то похожее на инфузорию-туфельку. Никаких полей, лесов, котиков... Сколько бы вы на такое поставили, если бы не знали, что это — одна из революционных работ Кандинского?</p>
-                  </article>
-                </a>
-                </li>
-          </ul>
-        </div>
-        <a class="lots__look-more-link" href="#"><p  class="lots__look-more-text">посмотреть больше</p></a>   
+              </a>
+            </li> 
+            <li class="lots__card-list-item">
+              <a class="card__link" href="#">
+                <article class="card card_type_book">
+                <div class="overlay"></div>
+                  <h3 class="card__title">Книга, где описан один скучный день из жизни рекламного агента</h3>
+                  <p class="card__text">Объёмом почти в тысячу страниц. Иногда без знаков препинания и с переходами на древнеанглийский. В ней одновременно рассказывается о 16 июня 1904 года и об истории литературы, начиная с античных времён. И это всё накладывается на эпическую поэму Гомера. Сколько бы вы поставили на «Улисса» Джеймса Джойса?</p>
+                </article>
+              </a>
+            </li>
+            <li class="lots__card-list-item">
+              <a class="card__link" href="#">
+                <article class="card card_type_picture">
+                <div class="overlay"></div>
+                  <h3 class="card__title">Картина, которую повторит даже 5-летний сын маминой подруги</h3>
+                  <p class="card__text">Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то похожее на инфузорию-туфельку. Никаких полей, лесов, котиков... Сколько бы вы на такое поставили, если бы не знали, что это — одна из революционных работ Кандинского?</p>
+                </article>
+              </a>
+            </li>
+        </ul>
+        <a class="lots__look-more-link" href="#">посмотреть больше</a>   
       </section>
       <section class="about">
-          <div class="about__column about__column-left">
+          <div class="about__column about__logo-column">
             <div class="about__logo">
               <img class="about__logo-image" src="./images/logo-white.svg" alt="Логотип проекта">
             </div>
           </div>
-          <div class="about__column about__column-right">
+          <div class="about__column about__text-column">
             <h2 class="about__title">Об аукционе</h2>
             <p class="about__text">Здесь вы&nbsp;не&nbsp;встретите очередное пафосное собрание невероятно дорогого антиквариата. Наши лоты вообще не&nbsp;должны были попасть ни&nbsp;на&nbsp;один аукцион. Потому что кому нужен дневник девочки-подростка или картина, которую может нарисовать даже ребёнок? Кому нужны все эти странные вещи, созданные любителями?
               <span class="about__text">Слишком сложные или, наоборот, слишком простые. Опережающие своё время. В&nbsp;пух и&nbsp;прах растерзанные критиками. Непринятые и непонятые. Когда-то они казались просто неудачными. Но, несмотря
@@ -125,19 +123,23 @@
           </li>
         </ul>
       </nav>
-      <div class="footer__social-list">
-        <div class="footer__social-list-item">
+      <ul class="footer__social-list">
+        <li class="footer__social-list-item">
           <a class="footer__social-link" href="#">
             <img class="footer__social-icon" src="./images/yt.svg" alt="Логотип ютуб">
           </a>
+        </li>
+        <li class="footer__social-list-item">
           <a class="footer__social-link" href="#">
             <img class="footer__social-icon" src="./images/vk.svg" alt="Логотип вконтакте">
           </a>
+        </li>
+        <li class="footer__social-list-item">
           <a class="footer__social-link" href="#">
             <img class="footer__social-icon" src="./images/pinterest.svg" alt="Логотип пинтерест">
           </a>
-        </div>
-      </div>
+        </li>
+      </ul>
     </footer>
   </body>
 </html>
